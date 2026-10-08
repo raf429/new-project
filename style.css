@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(78, 143, 165);
+}
+
+h1 {
+    color: darkblue;
+    font-size: 40px;
+}
+
+p {
+    color: #29c565;
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(42, 42, 201);
+    color: rgb(205, 23, 23);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
