@@ -16,6 +16,22 @@ console.log(`${playerName} is ${age} years old.`);
 const title = document.querySelector("#welcome");
 title.textContent = "Welcome to my website!";
 
+// Clock
+function updateClock() {
+    document.getElementById("clock").textContent = new Date().toLocaleTimeString();
+}
+updateClock();
+setInterval(updateClock, 1000);
+
+// Fun fact button
+const factBtn = document.getElementById("factBtn");
+const fact = document.getElementById("fact");
+
+factBtn.addEventListener("click", () => {
+    fact.style.display = fact.style.display === "none" ? "block" : "none";
+});
+
+// Dark mode button
 const darkBtn = document.getElementById("darkBtn");
 
 darkBtn.addEventListener("click", () => {
