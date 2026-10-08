@@ -15,3 +15,9 @@ console.log(age);
 console.log(`${playerName} is ${age} years old.`);
 const title = document.querySelector("#welcome");
 title.textContent = "Welcome to my website!";
+
+const darkBtn = document.getElementById("darkBtn");
+
+darkBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});

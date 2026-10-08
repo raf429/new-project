@@ -19,3 +19,30 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body.dark {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
